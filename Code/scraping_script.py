@@ -60,7 +60,6 @@ WMAZ_PRICE = WMAZ['LastTradedPrice'].tolist()
 YMAZ_PRICE = YMAZ['LastTradedPrice'].tolist()
 
 # Load Data Into DynamoDB
-
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('futures')
 

@@ -80,7 +80,7 @@ with dpg.window(label="WEAT", width=400, height=400):
 
         # create y axis
         dpg.add_plot_axis(dpg.mvYAxis, label="Price", tag="y3_axis")
-        dpg.set_axis_limits("y3_axis", 6800, 7300)
+        dpg.set_axis_limits("y3_axis", 6800, 7100)
 
         # add series to y axis
         dpg.add_bar_series([1, 3, 5, 7, 9, 11], db.WEAT_PRICES, label="WEAT Price", weight=1, parent="y3_axis", tag="weat_series")
@@ -142,7 +142,7 @@ with dpg.window(label="YMAZ", width=400, height=400):
         # bing theme to plot
         dpg.bind_item_theme("ymaz_series", "plot5_theme")
 
-dpg.create_viewport(title='Custom Title', width=1220, height=820)
+dpg.create_viewport(title='South African Grain Future Prices', width=1220, height=820)
 dpg.setup_dearpygui()
 dpg.show_viewport()
 dpg.start_dearpygui()

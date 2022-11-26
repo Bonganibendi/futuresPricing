@@ -22,6 +22,8 @@ An app which uses AWS Serverless computing to scrape South African Futures Grain
 
 # How to Setup 
 
+- Download the packages imported on all of the script files.
+- Download the many Linux x86_64 .whl version of the python packages for the scraping_script.py.
 - Zip the packages in one file.
 - Create a DynamoDB table corresponding with the data which is being scrapped.
 - Create an IAM role in your AWS Management Console to allow a Lambda function to read and write data from your DynamoDB table.

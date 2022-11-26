@@ -18,6 +18,8 @@ An app which uses AWS Serverless computing to scrape South African Futures Grain
 
 # Architecture Diagram
 
+![Untitled](https://user-images.githubusercontent.com/58882596/204089888-c018d33a-9b30-4fb1-b0db-6f00f452a48a.png)
+
 # How to Setup 
 
 - Zip the packages in one file.

@@ -13,13 +13,18 @@ An app which uses AWS Serverless computing to scrape South African Futures Grain
 - Web Scraping using BeautifulSoup4.
 - DearPyGui a C++ GUI library wrapped in Python to make my desktop application. 
 - AWS CLI Tools.
-- Automating my Lambda using AWS EventBridge
+- Automating my Lambda using AWS EventBridge.
 - Creating an Architecture of the AWS Services most effective for this project.
 
 # Architecture Diagram
 
 # How to Setup 
 
-- Download the packages.
-- 
-
+- Zip the packages in one file.
+- Create a DynamoDB table corresponding with the data which is being scrapped.
+- Create an IAM role in your AWS Management Console to allow a Lambda function to read and write data from your DynamoDB table.
+- Create a Lambda function and assign the role.
+- Add the zipped file with the create packages in the layers of the function. 
+- Create an Eventbridge to automate the Lambda function to scrape daily.
+- Install AWS CLI Tools on the Desktop Environment where you will run the application and configure it to the same VPC as your DynamoDB and Lambda function.
+- Run the app. 

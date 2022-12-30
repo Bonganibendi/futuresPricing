@@ -1,4 +1,4 @@
-![Untitled](https://user-images.githubusercontent.com/58882596/210068992-59aee78d-b5b2-4ac7-b507-ad2d533c4cc8.png)
+![Untitled](https://user-images.githubusercontent.com/58882596/210069372-226bbcd1-fefa-4e3c-8885-058afe0a2a92.png)
 
 # South African Grain Future Prices 
 

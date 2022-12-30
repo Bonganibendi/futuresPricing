@@ -2,7 +2,7 @@
 
 # South African Grain Future Prices 
 
-An app which uses AWS Serverless computing to scrape South African Futures Grain Prices. The data is then parsed into an easy to view desktop application to monitor the current prices for future contracts. 
+An app which uses AWS Serverless computing to scrape South African Grain Future Prices. The data is then parsed into an easy-to-view desktop application to monitor the current prices for future contracts.
 
 # Skills Acquired from Project 
 

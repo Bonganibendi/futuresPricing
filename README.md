@@ -1,4 +1,4 @@
-![Screenshot 2022-12-30 at 13 51 17](https://user-images.githubusercontent.com/58882596/210068895-5c9a45b6-60a7-456d-8583-4a2a4a5d6c33.png)
+![Untitled](https://user-images.githubusercontent.com/58882596/210068992-59aee78d-b5b2-4ac7-b507-ad2d533c4cc8.png)
 
 # South African Grain Future Prices 
 
